@@ -6,4 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".Skills">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:text="My Skills and Experiences in IT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="I am learning Java and C# and I know something about UI technologies and web development like CSS, HTML and, frameworks such as Bootstrap.
+\nI have knowledge about CMOS using WordPress for the last 5 years, web servers and how to set up a web environment, including shared and cloud hosting( EC2 on AWS) and experience with database systems such MySQL/Mariadb;
+\nI'm also just about to landed in the Mobile Device World with Android Studio and Kotlin, learning how to build apps for Android.
+\nOut of college I am learning data structure and also, how to Master Java on Coursera which I love :D
+\nI am using Visual Studio Code and VS as IDE for my projects(Java, C#) and ATOM for HTML and CSS. To deal with version control I'm here using GitHub.
+\nIf you want to know more about me feel free to have a look at my Linkedin profile bellow."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
