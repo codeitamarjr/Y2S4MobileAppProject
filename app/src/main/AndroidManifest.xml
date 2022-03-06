@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Y2S4MobileAppProject">
         <activity
+            android:name=".Achievements"
+            android:exported="false" />
+        <activity
+            android:name=".Hobbies"
+            android:exported="false" />
+        <activity
+            android:name=".Skills"
+            android:exported="false" />
+        <activity
+            android:name=".Education"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
