@@ -6,4 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".Hobbies">
 
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Hobbies"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="I am a gamer, also I like to go to the gym, hang out with my friends and take some photos like a pro so, feel free to check my Instagram on the Contact session.
+
+I love to help my friends so my YouTube channel came to help me share everything that I know about Ireland for those who wish to come here, alike I have a blog about tips and tricks in Ireland for Brazilians."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
