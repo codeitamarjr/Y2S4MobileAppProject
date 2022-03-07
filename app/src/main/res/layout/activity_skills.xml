@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Skills">
+    tools:context=".Skills"
+    android:background="@color/background">
 
     <TextView
         android:id="@+id/textView3"
@@ -16,7 +17,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/text"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -31,7 +33,8 @@
 \nIf you want to know more about me feel free to have a look at my Linkedin profile bellow."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/text"/>
 
     <LinearLayout
         android:layout_width="match_parent"
