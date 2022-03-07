@@ -25,8 +25,8 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent (this, Education ::class.java)
             startActivity(intent)
         }
-        val ButtonAchiements = findViewById<Button>(R.id.achiements)
-        ButtonAchiements.setOnClickListener {
+        val ButtonAchievements = findViewById<Button>(R.id.achievements)
+        ButtonAchievements.setOnClickListener {
             val intent = Intent (this, Achievements ::class.java)
             startActivity(intent)
         }
