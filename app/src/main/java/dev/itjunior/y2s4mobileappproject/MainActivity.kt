@@ -10,23 +10,23 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val ButtonSkills = findViewById<Button>(R.id.skills)
-        ButtonSkills.setOnClickListener {
+        val buttonSkills = findViewById<Button>(R.id.skills)
+        buttonSkills.setOnClickListener {
             val intent = Intent (this, Skills ::class.java)
             startActivity(intent)
         }
-        val ButtonHobbies = findViewById<Button>(R.id.hobbies)
-        ButtonHobbies.setOnClickListener {
+        val buttonHobbies = findViewById<Button>(R.id.hobbies)
+        buttonHobbies.setOnClickListener {
             val intent = Intent (this, Hobbies ::class.java)
             startActivity(intent)
         }
-        val ButtonEducation = findViewById<Button>(R.id.education)
-        ButtonEducation.setOnClickListener {
+        val buttonEducation = findViewById<Button>(R.id.education)
+        buttonEducation.setOnClickListener {
             val intent = Intent (this, Education ::class.java)
             startActivity(intent)
         }
-        val ButtonAchievements = findViewById<Button>(R.id.achievements)
-        ButtonAchievements.setOnClickListener {
+        val buttonAchievements = findViewById<Button>(R.id.achievements)
+        buttonAchievements.setOnClickListener {
             val intent = Intent (this, Achievements ::class.java)
             startActivity(intent)
         }
